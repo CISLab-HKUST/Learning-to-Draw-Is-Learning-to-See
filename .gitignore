@@ -1,0 +1,9 @@
+venv/
+Data/anime_style/*
+Data/select_image/*
+Data/sketches/*
+Data/sketches_png/*
+Data/transform_labeled/*
+Data/visual_labeled/*
+Data/registed_sketch/*
+Data/registed_sketch_png/*
