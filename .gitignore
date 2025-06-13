@@ -10,3 +10,8 @@ Data/registed_sketch/*
 Data/registed_sketch_png/*
 analysis1/heatmaps/*
 analysis1/__pycache__
+analysis2/__pycache__
+analysis2/point-time/*
+analysis3/__pycache__
+analysis3/stroke-point-time/*
+analysis3/window/*

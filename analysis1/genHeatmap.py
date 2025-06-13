@@ -33,9 +33,9 @@ for uid, value in eyetrack_and_drawing_data.items():
         p_names[type].append(name)
         fig = plt.figure(figsize=(10,10))
         plt.imshow(sp, cmap=plt.cm.coolwarm, vmin=0, vmax=0.10)
-        # 调整子图边距，减少留白
+        
         plt.subplots_adjust(left=0, right=1, top=1, bottom=0)
-        # 去除坐标轴
+        
         plt.axis('off')
         # plt.colorbar()
         plt.savefig('analysis1/heatmaps/' + name)  
@@ -53,7 +53,6 @@ for i in range(3):
     fig = plt.figure(figsize=(10,10))
     plt.imshow(spt, cmap=plt.cm.coolwarm, vmin=0, vmax=0.10)
     plt.subplots_adjust(left=0, right=1, top=1, bottom=0)
-        # 去除坐标轴
     plt.axis('off')
     plt.savefig('analysis1/heatmaps/' + important_images[i])  
     plt.close(fig)

@@ -81,7 +81,7 @@ python Data/renderSketches.py
 python Data/generateRegisteredPairs.py
 ```
 
-评估艺术家的草图的准确性（fig8 AVGD）：
+评估艺术家的草图的准确性（fig 8 AVGD）：
 ```
 python Data/accurancy.py
 ```
@@ -91,7 +91,38 @@ python Data/accurancy.py
 ```
 python .\analysis1\genHeatmap.py
 ```
-热力图结果保存在`analysis/heatmaps/`文件夹下，相关系数在控制台输出.
+热力图结果保存在`analysis1/heatmaps/`文件夹下，相关系数在控制台输出.
+
+计算Fixation points最小距离直方图（fig 3）：
+```
+python .\analysis1\minDistance.py
+```
+
+## Do People Draw Where They Observe?
+Canonical Correlation Analysis：
+```
+python .\analysis2\cca.py
+```
+散点图保存在`analysis2/point-time/`文件夹下，相关系数和$p$-value在控制台输出。fig 4 是`analysis2/point-time/blue_DIY_Gantry_bust_010_RGB_eyetrack09.png`和`analysis2/point-time/red_DIY_Gantry_bust_010_RGB_eyetrack09.png`组合的结果
+
+Multivariate Linear Mixed-Effects Model：
+```
+python .\analysis2\MLMM.py
+```
+结果在控制台输出
+
+## How Do People Observe and Draw Over Time
+Canonical Correlation Analysis in first window：
+```
+python .\analysis3\point-time-cca.py
+```
+散点图保存在`analysis3/stroke-point-time/`文件夹下，相关系数和$p$-value在控制台输出。
+
+Slide window:
+```
+python .\analysis3\window.py
+```
+散点图保存在`analysis3/window/`文件夹下，fig 6a是`analysis3\window\WEB_CUHK_man_000_RGB_eyetrack05.png`
 
 
 
