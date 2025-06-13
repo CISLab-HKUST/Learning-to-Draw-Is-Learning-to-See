@@ -1,4 +1,5 @@
 venv/
+Data/__pycache__
 Data/anime_style/*
 Data/select_image/*
 Data/sketches/*
@@ -7,3 +8,5 @@ Data/transform_labeled/*
 Data/visual_labeled/*
 Data/registed_sketch/*
 Data/registed_sketch_png/*
+analysis1/heatmaps/*
+analysis1/__pycache__

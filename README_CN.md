@@ -81,4 +81,17 @@ python Data/renderSketches.py
 python Data/generateRegisteredPairs.py
 ```
 
+评估艺术家的草图的准确性（fig8 AVGD）：
+```
+python Data/accurancy.py
+```
+
 ## Do People Focus on Similar Areas?
+计算Fixation points热力图和相关系数（fig 2）：
+```
+python .\analysis1\genHeatmap.py
+```
+热力图结果保存在`analysis/heatmaps/`文件夹下，相关系数在控制台输出.
+
+
+
