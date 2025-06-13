@@ -3,6 +3,8 @@
 
 [中文](README_CN.md)
 
+![teaser](teaser_00.png)
+
 This repository contains the data and analysis programs for our paper "Learning to Draw Is Learning to See: Analyzing Eye Tracking Patterns for Assisted Observational Drawing" published at SIGGRAPH 2025.
 
 ## Getting Started
@@ -54,7 +56,7 @@ We collected eye tracking data using the Tobii Pro Spark eye tracker and synchro
 ```
 
 ## Stroke Registration
-Our stroke registration section mainly references[Trace-vs-Freehand](https://github.com/zachzeyuwang/tracing-vs-freehand). Unlike that project, we do not have trace data as the target. Instead, we use the sketches extracted from image prompts by [informative-drawings](https://github.com/carolineec/informative-drawings) as the target.
+Our stroke registration section mainly references [Trace-vs-Freehand](https://github.com/zachzeyuwang/tracing-vs-freehand). Unlike that project, we do not have trace data as the target. Instead, we use the sketches extracted from image prompts by [informative-drawings](https://github.com/carolineec/informative-drawings) as the target.
 
 Create the following folders under the `Data` folder:
 ```
