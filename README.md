@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Learning to Draw Is Learning to See: Analyzing Eye Tracking Patterns for Assisted Observational Drawing
 [Paper](https://cislab.hkust-gz.edu.cn/media/documents/_SIGGRAPH_2025__Learning_to_Draw_Is_Learning_to_See_4.pdf) | [Project]() | [Data](https://github.com/CISLab-HKUST/Learning-to-Draw-Is-Learning-to-See) | [Interface](https://github.com/CISLab-HKUST/Learning-to-Draw-Is-Learning-to-See_Interface)
 
@@ -132,3 +133,7 @@ Scatter plots are saved in `analysis3/window/`. Fig. 6a is `analysis3\window\WEB
 
 
 
+=======
+# Learning-to-Draw-Is-Learning-to-See
+Coming soon
+>>>>>>> f0d98f16884bd1c30d633c841076bcde5e1345b6
