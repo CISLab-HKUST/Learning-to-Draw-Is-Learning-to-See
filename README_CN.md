@@ -1,3 +1,10 @@
+# Learning to Draw Is Learning to See: Analyzing Eye Tracking Patterns for Assisted Observational Drawing
+[Paper](https://cislab.hkust-gz.edu.cn/media/documents/_SIGGRAPH_2025__Learning_to_Draw_Is_Learning_to_See_4.pdf) | [Project]() | [Data](https://github.com/CISLab-HKUST/Learning-to-Draw-Is-Learning-to-See) | [Interface](https://github.com/CISLab-HKUST/Learning-to-Draw-Is-Learning-to-See_Interface)
+
+[English version](README.md)
+
+这个仓库包含了我们在SIGGRAPH 2025上发表的论文《Learning to Draw Is Learning to See: Analyzing Eye Tracking Patterns for Assisted Observational Drawing》的数据和分析程序。
+
 ## 开始
 创建虚拟环境:
 ```
