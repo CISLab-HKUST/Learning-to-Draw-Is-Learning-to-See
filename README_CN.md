@@ -1,5 +1,5 @@
 # Learning to Draw Is Learning to See: Analyzing Eye Tracking Patterns for Assisted Observational Drawing
-[Paper](https://cislab.hkust-gz.edu.cn/media/documents/_SIGGRAPH_2025__Learning_to_Draw_Is_Learning_to_See_4.pdf) | [Project](https://cislab-hkust.github.io/Learning-to-Draw/) | [Data](https://github.com/CISLab-HKUST/Learning-to-Draw-Is-Learning-to-See) | [Interface](https://github.com/CISLab-HKUST/Learning-to-Draw-Is-Learning-to-See_Interface)
+[Paper](https://cislab.hkust-gz.edu.cn/media/documents/_SIGGRAPH_2025__Learning_to_Draw_Is_Learning_to_See_4.pdf) | [Project](https://cislab-hkust.github.io/Learning-to-Draw/) | [Data](https://github.com/CISLab-HKUST/Learning-to-Draw-Is-Learning-to-See) | [Interface](https://cislab.hkust-gz.edu.cn/demos/learning-to-draw-is-learning-to-see)
 
 [English version](README.md)
 
